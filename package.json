@@ -1,0 +1,29 @@
+{
+  "name": "modern-css",
+  "version": "1.0.0",
+  "description": "Modern CSS -> Flexbox, Grid, PostCSS, CSSNext  Next -> Build so awesome website and webapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kang-Yuchan/modern-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kang-Yuchan/modern-css/issues"
+  },
+  "homepage": "https://github.com/Kang-Yuchan/modern-css#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.5.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+/* li:matches(:nth-child(even), .target){
+  background-color: blue;
+} */
+
+li:not(.target) {
+  background-color: blue;
+}
